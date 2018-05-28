@@ -1,4 +1,11 @@
 # schemejs
+Scheme.js is a project designed to make building servers modular and fast.
+
+## How To Install
+```
+npm i schemejs
+```
+
 ``` javascript
 eval(fs.readFileSync("./api.js").toString());
 var s = new scheme(apijs);
