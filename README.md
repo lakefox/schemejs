@@ -49,6 +49,7 @@ http.listen(8080, ()=>{
 You can see Scheme.js working on line 14, this is where the server reads the "api.js" file. Then on 15 it loads the file into scheme. The way Scheme.js works is through the "api.js" file.
 
 ### Api.js
+This is an example of the api.js file.
 ``` json
 var apijs = {
 	loud: {
@@ -64,3 +65,4 @@ var apijs = {
   	...
 }
 ```
+
