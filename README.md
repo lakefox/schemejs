@@ -6,6 +6,8 @@ Scheme.js is a project designed to make building servers modular and fast.
 npm i schemejs
 ```
 
+## Example Server
+
 ``` javascript
 eval(fs.readFileSync("./api.js").toString());
 var s = new scheme(apijs);
