@@ -58,7 +58,9 @@ var apijs = {
         },
       	server: {
           res: (req) => {
-            return req.toUpperCase();
+            return {
+              name: req.toUpperCase()
+            }
           }
         }
     },
