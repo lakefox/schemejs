@@ -68,5 +68,11 @@ var apijs = {
 ### Request
 This is an example request made by the client.
 ``` javascript
-post("/api", )
+// Send the request to the server
+post("/api", {loud: {name: "john"}}).then((res) => {
+  console.log(res);
+  // {
+  // 	res: "JOHN"
+  // }
+});
 ```
