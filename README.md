@@ -7,7 +7,6 @@ npm i schemejs
 ```
 
 ## Example Server
-
 ``` javascript
 eval(fs.readFileSync("./api.js").toString());
 var s = new scheme(apijs);
