@@ -30,8 +30,8 @@ var s = new scheme(apijs);
 const megaquery = require('megaquery');
 
 app.post("/api", (req,res) => {
-  if (req.body.store) {
-    s.rag(req.body.store).then((data) => {
+  if (req.body) {
+    s.rag(req.body).then((data) => {
       console.log(data);
       res.json(data);
     });
@@ -65,4 +65,8 @@ var apijs = {
   	...
 }
 ```
-
+### Request
+This is an example request made by the client.
+``` javascript
+post("/api", )
+```
