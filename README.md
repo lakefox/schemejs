@@ -74,7 +74,7 @@ This is an example request made by the client.
 post("loud", {name: "john"}).then((res) => {
   console.log(res);
   // {
-  // 	res: "JOHN"
+  // 	name: "JOHN"
   // }
 });
 ```
