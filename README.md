@@ -60,6 +60,7 @@ var apijs = {
           		return req.toUpperCase();
           	}
         }
-    }
+    },
+  	...
 }
 ```
