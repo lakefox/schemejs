@@ -60,7 +60,7 @@ var apijs = {
           res: (req) => {
             return JSON.stringify({
               name: req.toUpperCase()
-            })
+            });
           }
         }
     },
