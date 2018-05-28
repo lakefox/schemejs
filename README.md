@@ -80,6 +80,7 @@ post("loud", {name: "john"}).then((res) => {
 This is the post function I use to talk to the server, it simplifies things down a lot.
 ``` javascript
 function post(name, value) {
+  // Replace this with your servers url
   var url = 'http://localhost:8080/api';
   var data = {store: {}};
   data.store[name] = value;
