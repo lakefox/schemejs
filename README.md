@@ -7,6 +7,7 @@ npm i schemejs
 ```
 
 ## Example Server
+This is the server I use on all my projects.
 ``` javascript
 const express = require("express");
 const app = express();
@@ -42,7 +43,21 @@ app.get('/', function(req, res) {
 });
 
 http.listen(8080, ()=>{
-  console.log('WCPM is running');
+  console.log('Server is running');
 });
+```
+You can see Scheme.js working on line 14, this is where the server reads the "api.js" file. Then on 15 it loads the file into scheme. The way Scheme.js works is through the "api.js" file.
 
+### Api.js
+``` json
+var apijs = {
+	functionName: {
+    	client: {
+          
+        },
+      	server: {
+          
+        }
+    }
+}
 ```
