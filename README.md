@@ -76,3 +76,24 @@ post("/api", {loud: {name: "john"}}).then((res) => {
   // }
 });
 ```
+### Post Function
+``` javascript
+function post(name, value) {
+  var url = 'http://localhost:8080/api';
+  var data = {store: {}};
+  data.store[name] = value;
+  return new Promise(function (resolve, reject) {
+    fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then((res) => {
+      return res.json();
+    }).then((data) => {
+      resolve(JSON.parse(data.res));
+    });
+  });
+}
+```
