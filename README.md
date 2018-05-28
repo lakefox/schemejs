@@ -53,10 +53,12 @@ You can see Scheme.js working on line 14, this is where the server reads the "ap
 var apijs = {
 	functionName: {
     	client: {
-          
+          name: "lakefox"
         },
       	server: {
-          
+          res: (req) => {
+          		return req.toUpperCase();
+          	}
         }
     }
 }
