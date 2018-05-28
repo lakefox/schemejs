@@ -69,7 +69,7 @@ var apijs = {
 This is an example request made by the client.
 ``` javascript
 // Send the request to the server
-post("loud", {loud: {name: "john"}}).then((res) => {
+post("loud", {name: "john"}).then((res) => {
   console.log(res);
   // {
   // 	res: "JOHN"
