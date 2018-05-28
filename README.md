@@ -77,6 +77,7 @@ post("/api", {loud: {name: "john"}}).then((res) => {
 });
 ```
 ### Post Function
+This is the post function I use to talk to the server, it simplifies things down a lot.
 ``` javascript
 function post(name, value) {
   var url = 'http://localhost:8080/api';
