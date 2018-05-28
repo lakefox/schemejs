@@ -1,7 +1,7 @@
 # schemejs
 Scheme.js is a project designed to make building servers modular and fast.
 
-## How To Install
+## Install
 ```
 npm i schemejs
 ```
