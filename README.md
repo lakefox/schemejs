@@ -51,7 +51,7 @@ You can see Scheme.js working on line 14, this is where the server reads the "ap
 ### Api.js
 ``` json
 var apijs = {
-	functionName: {
+	scream: {
     	client: {
           name: "lakefox"
         },
