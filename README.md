@@ -50,7 +50,7 @@ You can see Scheme.js working on line 14, this is where the server reads the "ap
 
 ### Api.js
 This is an example of the api.js file.
-``` json
+``` javascript
 var apijs = {
 	loud: {
     	client: {
